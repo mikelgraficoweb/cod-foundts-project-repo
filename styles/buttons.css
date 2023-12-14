@@ -1,0 +1,40 @@
+.centered-btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.btnG {
+    background-color: #36383f;
+    color: #ffffff;
+    font-family: 'Rethink Sans', sans-serif; 
+    font-size: 1.4em;
+    font-weight:700;
+    padding: 19px 35px;
+    border: 1px solid #36383f;
+    border-radius: 4px;
+    outline: none;
+}
+
+.btnV {
+    background-color: #4db358;
+    color: #000000;
+    font-family: 'Rethink Sans', sans-serif; 
+    font-weight: 600;
+    font-size: 2.3em;
+    padding: 25px 44px;
+    border: 1px solid #4db358;
+    border-radius: 3px;
+    outline: none;
+}
+.btnLM {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Rethink Sans', sans-serif; 
+    font-size: 2.3em;
+    font-weight: 500;
+    padding: 25px 44px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    outline: none;
+}
+

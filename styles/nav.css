@@ -1,0 +1,71 @@
+.navigation-wrapper {
+    height: 110px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: black;
+}
+.links-wrapper{
+    display: flex;
+    justify-content:left;
+    align-items: baseline;
+    width: 42vw;
+    }
+    
+.left-column-nav > .banner-logo {
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.right-column-nav {
+    width: 35vw;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.left-column-nav > .banner-logo > img{
+    width: 14vw;
+}
+
+.links-wrapper > .center-column-nav {
+    width: 37vw;
+    display: flex;
+    justify-content:left;
+    align-items: baseline;
+}
+
+.yellow-mayus-regular {
+    display: flex;
+    justify-content: left;
+    color: #d5b781;
+    font-weight:800;
+    font-size: 1.2em;
+    }
+
+.links-wrapper > .nav-bar {
+    flex-direction: column;
+    margin-right: 20px;
+    color: white;
+    font-weight:900;
+    font-size: 1.5em;
+}
+
+.links-wrapper > .nav-bar-grey {
+    flex-direction: column;
+    align-items: baseline;
+    font-weight:500;
+    font-size: 1.3em;
+    opacity: 0.7;
+}
+
+button > i  { 
+    color: #4bce79; /* with a GREEN down chevron (does not need to actually dropdown) */
+    font-size: 1.4em;
+}
+
+.icon /* magnifying-glass */ 
+      {
+    font-size: 2.2em;
+    opacity: 0.7;
+    padding: 13px;
+}
+
